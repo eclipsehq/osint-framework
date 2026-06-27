@@ -217,7 +217,7 @@ func tuiCmd() *cobra.Command {
 		Use:   "tui",
 		Short: "Launch interactive TUI dashboard",
 		Run: func(cmd *cobra.Command, args []string) {
-			p := tea.NewProgram(tui.New(), tea.WithAltScreen())
+			p := tea.NewProgram(tui.New(cfg), tea.WithAltScreen())
 			if _, err := p.Run(); err != nil {
 				fmt.Fprintln(os.Stderr, "TUI error:", err)
 				os.Exit(1)
