@@ -1,0 +1,30 @@
+app:
+  name: "OSINT Framework"
+  version: "1.0.0"
+
+cache:
+  enabled: true
+  ttl: 3600
+  directory: "./cache"
+
+concurrency:
+  workers: 10
+  timeout: 30
+  retries: 3
+
+logging:
+  level: "info"
+  format: "json"
+
+theme:
+  mode: "dark"
+
+api_keys:
+  virustotal: ""
+  shodan: ""
+  censys: ""
+  securitytrails: ""
+  abuseipdb: ""
+  ipinfo: ""
+  urlscan: ""
+  greynoise: ""
