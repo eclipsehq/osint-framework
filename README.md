@@ -185,3 +185,4 @@ MIT License. See `LICENSE` for details.
 ## Disclaimer
 
 This tool is intended for legal open-source intelligence gathering and security research on assets you own or have explicit permission to investigate. Users are responsible for complying with all applicable laws and service terms of use.
+The skeleton of this project and the readme were build using AI, all code was handchecked by me and im still fixing some issues please wait for further commits.
